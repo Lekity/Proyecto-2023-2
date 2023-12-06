@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 100;
+    height: 40vh;
+    display: flex;
+    background-color:black;
+}
+
+.imagen-logo{
+    width: 25%;
+
+}
+
+.nav-container{
+    width: 25%;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.nav-container button{
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-style: serif;
+    font-size: 12px;
+}
+
+.name-container{
+    width: 50%;
+}
+
+.name-container h1{
+    color: antiquewhite;
+    font-style: oblique;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-container input{
+    width: 100%;
+    border-radius: 20px;
+    font-size: 1em;
+    border: 1px solid mediumorchid;
+}
+
+a{
+    text-decoration: none;
+}
+
+.opc{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.nov-btn{
+    margin-right: 100px;
+    width: 10%;
+    height: 5vh;
+}
+
+.tillos-btn{
+    margin-right: 100px;
+    width: 10%;
+    height: 5vh;
+}
+
+.acs-btn{
+    margin-right: 100px;
+    width: 10%;
+    height: 5vh;
+}
+
+.ropa-btn{
+    margin-right: 100px;
+    width: 10%;
+    height: 5vh;
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-container{
+        width: 12%;
+        flex-direction: column;
+    }
+    .name-container{
+        font-size: 30%;
+        margin-top: 70px;
+        margin-left: 40px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 40%;
+        color: black;
+        
+    }
+    .nov-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+    }
+    .tillos-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+        font-size: 40%;
+    }
+    .acs-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+        font-size: 40%;
+    }
+    .ropa-btn{
+        margin-right: 20px;
+        width: 10%;
+        height: 5vh;
+        font-size: 40%;
+    }
+    .video{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .nav-container{
+        width: 11%;
+        flex-direction: column;
+    }
+    .name-container{
+        font-size: 50%;
+        margin-top: 60px;
+        margin-left: 60px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 50%;
+        color: black;
+        
+    }
+    .nov-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+    }
+    .tillos-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+        font-size: 50%;
+    }
+    .acs-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+        font-size: 50%;
+    }
+    .ropa-btn{
+        margin-right: 50px;
+        width: 10%;
+        height: 5vh;
+        font-size: 50%;
+    }
+    .video{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 551px) {
+    .name-container{
+        font-size: 70%;
+        margin-top: 50px;
+        margin-left: 50px;
+        
+    }
+    a{
+        text-decoration: none;
+        font-size: 70%;
+        color: black;
+        
+    }
+    .tillos-btn{
+        font-size: 70%;
+    }
+    .acs-btn{
+        font-size: 70%;
+    }
+    .ropa-btn{
+        
+        font-size: 70%;
+    }
+    .video{
+        width: 100%;
+        height: 50%;
+    }
+}
